@@ -1,0 +1,44 @@
+body {
+    background-color: #ad9bc2;
+    color: #301338;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.10em;
+    padding: 1%;
+}
+canvas { 
+    border: 5px solid #62392c;
+    margin-bottom: 2%;
+}
+button {
+    padding: 32px 16px;
+    line-height: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 145%;
+    background-color: #e99e65;
+    align-self: center;
+    border: #333333 .25px solid;
+    color: #301338;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.flexContainer {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.canvasArea {
+    padding: .3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2168303b;
+}
+#ideaText {
+    font-size: 1.5em;
+    font-family: 'Oldenburg', serif;
+}
+#top {
+    display: flex;
+    font-size: 1.5em;
+    flex-flow: column nowrap;
+}
